@@ -1,0 +1,256 @@
+.mid-container {
+  width: 350px;
+  height: 74vh;
+  background: white;
+  margin: auto;
+  /* padding: 15px; */
+  /* border-radius: 10px; */
+  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+}
+.container-view{
+  width: 360px;
+  height: 80vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tabs span {
+  margin-left: 10px;
+  color: gray;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.active-tab {
+  font-weight: bold;
+  color: black;
+}
+
+.archive-button {
+  width: 100%;
+  background: white;
+  padding-block: 20px;
+  padding-inline: 15px;
+  border: 1px solid gray;
+  /* border: none; */
+  border-radius: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.archive-button:hover {
+  background: #d6d6d6;
+}
+
+.unarchive-button {
+  width: 100%;
+  background: white;
+  padding-block: 20px;
+  padding-inline: 15px;
+  border: 1px solid gray;
+  /* border: none; */
+  border-radius: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.archive-icon {
+  margin-right: 8px;
+}
+
+.call-list {
+  height: 57vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.call-list::-webkit-scrollbar {
+  display: none;
+}
+
+.call-entry {
+  background: #fafafa;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px #ddd;
+  cursor: pointer;
+}
+
+.date {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.phone {
+  font-weight: bold;
+  position: relative;
+}
+
+.subtext {
+  font-size: 12px;
+  color: gray;
+}
+
+.time {
+  font-size: 12px;
+  color: black;
+}
+
+.badge {
+  background: red;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 50%;
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+.phone-badge {
+  background: red;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 50%;
+  font-size: 10px;
+  margin-left: 5px;
+  position: absolute;
+  bottom: 13px;
+  left: 4.5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background: white;
+  border-top: 1px solid #e0e0e0;
+}
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.icon {
+  font-size: 20px;
+  cursor: pointer;
+  color: gray;
+}
+
+.grid-button {
+  background: green;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.status-icon {
+  color: green;
+}
+
+/* Call Details */
+
+.call-details {
+  display: flex;
+  flex-direction: column;
+  /* padding: 15px; */
+  height: 74vh;
+  background: white;
+  border-radius: 10px;
+}
+.call-details-header {
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  margin-bottom: 20px;
+}
+.back-button {
+  background: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50%;
+  justify-content: center;
+  transition: background 0.3s;
+  padding-left: 0px;
+}
+.back-btn-icon {
+  font-size: 20px;
+  color: gray;
+}
+.call-details-heading {
+  font-size: 20px;
+  font-weight: bold;
+  /* margin-bottom: 10px; */
+  font-weight: bold;
+}
+.call-details-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.unarchive-icon,
+.archive-icon {
+  font-size: 20px;
+  /* color: gray; */
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.archive-single-button {
+  padding-block: 10px;
+  padding-inline: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  transition: background 0.3s;
+  background-color: #ffffff4a;
+}
